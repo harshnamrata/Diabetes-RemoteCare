@@ -1,0 +1,401 @@
+Region,Age,Gender,Family_Diabetes,highBP,PhysicallyActive,BMI,Smoking,Alcohol,Sleep,SoundSleep,RegularMedicine,JunkFood,Stress,BPLevel,Pregnancies,Pdiabetes,UriationFreq
+Region C,27,Female,No,Yes,one hour or more,25.5,Yes,No,8.5,4.8,No,Often,Sometimes,high,2,No,Quite often
+Region E,58,Female,No,No,none,29.9,No,No,3.6,5.5,No,Never,Sometimes,normal,0,No,Not much
+Region D,76,Female,No,No,more than half an hour,26.1,No,No,8.0,7.6,No,Occasionally,Not at all,normal,6,No,Not much
+Region A,45,Male,No,No,one hour or more,29.4,No,Yes,6.5,7.0,No,Often,Not at all,normal,0,Yes,Quite often
+Region B,60,Female,No,Yes,more than half an hour,21.9,No,No,6.7,7.2,No,Occasionally,Sometimes,high,2,No,Quite often
+Region E,31,Female,No,No,none,30.9,Yes,No,7.1,7.6,No,Often,Sometimes,normal,3,No,Not much
+Region A,44,Male,Yes,Yes,less than half an hour,15.0,No,Yes,5.1,6.8,No,Never,Always,high,0,No,Not much
+Region E,19,Male,No,Yes,more than half an hour,19.6,No,No,9.1,5.3,Yes,Occasionally,Not at all,high,0,No,Not much
+Region D,51,Male,No,No,none,34.3,No,Yes,6.6,6.6,No,Occasionally,Very often,normal,0,No,Not much
+Region C,49,Female,No,No,one hour or more,27.8,No,Yes,8.5,3.6,No,Occasionally,Sometimes,low,0,Yes,Quite often
+Region B,52,Female,No,Yes,more than half an hour,abc,No,Yes,7.9,4.1,No,Occasionally,Sometimes,high,0,No,Quite often
+Region B,46,Female,No,No,less than half an hour,28.2,No,No,7.5,8.5,No,Never,Very often,normal,6,No,Not much
+Region B,37,Female,No,No,none,21.0,No,No,9.1,6.8,No,Never,Very often,normal,5,No,Quite often
+Region B,47,Male,No,Yes,none,28.3,Yes,No,8.1,5.3,No,Often,Very often,high,0,No,Not much
+Region C,78,Male,No,No,none,29.0,No,No,5.7,8.1,No,Often,Sometimes,normal,0,No,Not much
+Region C,45,Female,No,No,more than half an hour,25.0,No,Yes,5.8,9.3,No,Often,Sometimes,normal,2,No,Not much
+Region F,73,Male,No,No,less than half an hour,25.8,No,No,6.4,6.1,No,Occasionally,Always,normal,0,Yes,Quite often
+Region D,20,Female,No,No,more than half an hour,28.3,No,No,8.1,5.8,No,Often,Sometimes,normal,6,No,Not much
+Region C,78,Female,Yes,No,more than half an hour,27.5,No,No,9.1,6.4,No,Never,Sometimes,normal,2,Yes,Quite often
+Region F,63,Male,No,No,none,24.3,Yes,Yes,5.1,7.9,No,Often,Sometimes,normal,0,Yes,Quite often
+Region A,36,Female,Yes,Yes,more than half an hour,30.4,No,No,5.0,6.0,No,Occasionally,Sometimes,high,6,No,Quite often
+Region A,35,Male,No,No,none,27.3,No,Yes,7.3,6.0,No,Occasionally,Sometimes,normal,0,No,Quite often
+Region C,23,Female,No,No,none,21.2,No,Yes,4.0,7.2,No,Never,Sometimes,normal,1,No,Not much
+Region A,52,Female,Yes,Yes,one hour or more,27.9,No,No,7.2,5.2,No,Never,Always,high,6,No,Not much
+Region A,25,Female,No,No,less than half an hour,25.7,No,No,5.1,6.5,Yes,Never,Sometimes,normal,1,Yes,Not much
+Region C,29,Male,No,No,more than half an hour,25.4,Yes,No,5.0,3.7,No,Occasionally,Sometimes,normal,2,No,Not much
+Region C,35,Male,No,No,less than half an hour,29.0,No,No,6.6,5.7,No,Occasionally,Sometimes,normal,0,No,Not much
+Region E,61,Male,Yes,Yes,one hour or more,24.8,No,No,6.8,7.8,No,Occasionally,Sometimes,high,0,No,Not much
+Region C,64,Male,Yes,No,less than half an hour,24.8,No,No,5.8,5.3,No,Never,Not at all,low,0,No,Not much
+Region C,76,Female,No,No,less than half an hour,34.8,Yes,No,5.2,5.4,No,Often,Not at all,normal,2,Yes,Not much
+Region C,71,Female,No,No,none,24.8,No,No,6.9,4.6,No,Occasionally,Always,normal,5,No,Not much
+Region A,47,Male,Yes,No,less than half an hour,26.9,No,No,6.7,4.5,No,Occasionally,Always,normal,0,No,Quite often
+Region A,21,Female,No,No,more than half an hour,27.4,No,No,6.8,4.4,No,Often,Not at all,normal,4,No,Not much
+Region A,79,Male,No,Yes,less than half an hour,26.6,No,No,7.5,3.6,No,Often,Always,high,0,No,Not much
+Region D,23,Male,No,No,one hour or more,24.9,No,No,6.0,6.6,No,Never,Not at all,normal,0,No,Not much
+Region A,46,Male,Yes,No,less than half an hour,22.4,Yes,No,6.6,4.8,No,Occasionally,Always,normal,0,No,Not much
+Region B,58,Female,Yes,Yes,less than half an hour,24.9,No,No,5.7,6.2,No,Occasionally,Sometimes,high,6,Yes,Quite often
+Region A,20,Female,No,No,less than half an hour,30.5,No,No,7.5,7.3,No,Never,Very often,normal,5,No,Quite often
+Region E,21,Male,Yes,Yes,more than half an hour,28.0,No,No,6.8,5.2,No,Often,Always,high,0,No,Quite often
+Region A,80,Female,No,No,one hour or more,25.1,No,No,6.6,6.5,No,Occasionally,Always,normal,4,No,Not much
+,62,Male,Yes,No,one hour or more,28.4,Yes,No,6.3,7.2,No,Often,Always,low,0,No,Not much
+Region E,75,Female,No,Yes,one hour or more,25.9,No,No,5.0,5.8,No,Often,Very often,high,4,No,Quite often
+Region C,67,Female,No,No,none,27.8,No,No,7.3,4.5,No,Never,Not at all,normal,5,No,Quite often
+Region E,20,Male,No,No,less than half an hour,26.1,No,No,5.7,5.5,No,Occasionally,Sometimes,normal,0,No,Not much
+Region C,35,Female,No,Yes,less than half an hour,21.9,No,Yes,6.7,5.6,No,Often,Sometimes,high,5,No,Not much
+Region D,64,Male,Yes,No,less than half an hour,21.7,No,Yes,5.1,3.9,No,Never,Not at all,normal,0,No,Quite often
+Region A,47,Female,No,Yes,more than half an hour,23.8,No,No,6.9,4.7,No,Never,Not at all,high,0,No,Quite often
+Region C,47,Female,No,Yes,none,35.5,No,No,7.5,5.6,No,Never,Sometimes,high,1,No,Not much
+Region C,30,Male,No,No,less than half an hour,23.0,No,No,8.7,8.3,No,Occasionally,Always,normal,0,Yes,Quite often
+Region E,46,Female,No,No,none,29.2,No,Yes,8.5,6.4,No,Never,Not at all,low,2,No,Quite often
+Region B,75,Male,No,Yes,one hour or more,26.5,Yes,No,6.4,5.6,No,Occasionally,Very often,high,0,No,Not much
+Region C,57,Female,No,Yes,less than half an hour,31.5,No,No,6.9,4.9,No,Never,Very often,high,2,No,Quite often
+Region A,22,Male,No,No,none,29.7,No,No,6.8,5.8,No,Occasionally,Sometimes,normal,0,No,Quite often
+Region B,36,Male,No,No,none,30.3,No,No,8.1,5.1,No,Occasionally,Not at all,low,0,No,Quite often
+Region B,65,Female,Yes,No,more than half an hour,26.9,No,Yes,5.0,4.8,No,Occasionally,Always,normal,0,No,Not much
+Region A,51,Female,No,No,one hour or more,18.9,Yes,No,9.6,3.8,No,Occasionally,Sometimes,normal,6,No,Not much
+Region E,40,Male,No,No,one hour or more,23.9,No,No,9.2,4.2,No,Never,Always,normal,0,No,Quite often
+Region B,35,Male,Yes,No,one hour or more,31.7,No,No,5.6,4.4,Yes,Often,Very often,normal,0,No,Not much
+Region F,51,Female,No,No,more than half an hour,25.2,No,No,7.0,4.6,No,Occasionally,Sometimes,normal,6,No,Not much
+Region C,35,Female,No,No,more than half an hour,16.8,No,Yes,6.6,7.5,No,Occasionally,Very often,low,3,No,Not much
+Region E,31,Female,No,No,none,30.9,Yes,No,7.1,7.6,No,Often,Sometimes,normal,3,No,Not much
+Region C,79,Female,No,Yes,none,24.2,No,No,7.0,7.8,No,Occasionally,Always,high,6,No,Not much
+Region D,37,Female,No,No,less than half an hour,21.8,No,No,7.6,3.2,No,Occasionally,Very often,normal,3,Yes,Not much
+Region A,56,Male,No,Yes,none,34.0,No,No,7.3,4.2,No,Often,Very often,high,0,No,Quite often
+Region B,55,Male,Yes,No,one hour or more,22.0,No,No,7.2,7.5,No,Occasionally,Always,normal,0,No,Not much
+Region A,69,Female,Yes,No,none,29.7,No,No,5.7,5.5,No,Occasionally,Sometimes,low,1,No,Not much
+Region B,28,Male,No,No,more than half an hour,30.9,No,No,5.5,7.7,No,Occasionally,Always,normal,0,No,Not much
+Region A,77,Male,No,No,less than half an hour,26.3,No,No,5.6,4.9,No,Occasionally,Sometimes,normal,0,No,Not much
+Region F,68,Male,No,Yes,one hour or more,21.9,Yes,Yes,7.0,7.6,No,Occasionally,Not at all,high,0,No,Quite often
+Region A,18,Female,No,Yes,more than half an hour,29.8,Yes,Yes,8.7,6.2,No,Never,Sometimes,high,5,No,Quite often
+Region D,54,Female,No,Yes,none,33.5,No,No,6.7,7.0,No,Occasionally,Very often,high,0,No,Not much
+Region B,55,Male,No,No,none,28.1,No,No,3.8,5.5,No,Never,Not at all,normal,0,No,Not much
+Region E,25,Female,No,No,more than half an hour,21.4,No,No,7.8,5.9,No,Occasionally,Not at all,normal,6,No,Not much
+Region D,64,Female,Yes,Yes,one hour or more,30.0,Yes,No,7.7,6.2,No,Often,Very often,high,3,Yes,Quite often
+Region A,46,Male,Yes,No,none,25.2,No,No,5.7,7.2,No,Occasionally,Sometimes,normal,0,Yes,Not much
+Region E,65,Female,No,Yes,one hour or more,26.1,No,Yes,7.7,6.8,No,Often,Very often,high,4,No,Not much
+Region F,21,Male,No,No,more than half an hour,21.7,No,No,6.1,7.0,No,Often,Not at all,low,0,No,Quite often
+Region E,28,Female,Yes,No,one hour or more,32.9,No,No,5.8,6.8,No,Occasionally,Sometimes,low,2,No,Not much
+Region C,24,Female,No,Yes,one hour or more,27.5,No,No,7.2,8.1,No,Never,Always,high,6,No,Quite often
+Region A,71,Female,No,No,none,26.5,No,No,6.5,6.4,No,Occasionally,Very often,normal,0,No,Not much
+Region A,24,Female,No,No,more than half an hour,23.8,No,No,6.5,5.3,No,Occasionally,Never,normal,3,No,Quite often
+Region F,78,Male,No,No,more than half an hour,24.9,No,No,7.0,3.9,No,Occasionally,Always,normal,0,No,Not much
+Region C,56,Female,No,No,less than half an hour,29.1,No,No,10.0,3.2,No,Occasionally,Always,normal,3,No,Quite often
+Region A,49,Female,No,Yes,more than half an hour,33.8,No,No,6.9,4.3,No,Never,Sometimes,high,0,No,Quite often
+Region E,55,Female,No,No,less than half an hour,30.9,No,No,8.7,5.1,No,Occasionally,Always,normal,0,Yes,Not much
+Region C,51,Male,Yes,No,one hour or more,28.8,No,Yes,6.5,6.2,No,Occasionally,Sometimes,low,0,No,Quite often
+Region C,45,Male,No,No,none,22.6,No,No,4.6,9.0,No,Occasionally,Always,normal,0,No,Quite often
+Region B,37,Female,No,Yes,one hour or more,27.5,No,Yes,6.8,4.5,No,Occasionally,Always,high,5,No,Quite often
+Region B,51,Male,No,No,one hour or more,22.2,No,No,4.3,4.8,No,Never,Not at all,low,0,No,Not much
+Region A,64,Female,Yes,No,none,31.4,No,No,8.9,7.8,No,Never,Sometimes,normal,1,No,Not much
+Region A,79,Female,No,Yes,none,28.1,Yes,No,6.8,6.3,No,Occasionally,Not at all,high,6,Yes,Not much
+Region E,47,Female,No,No,less than half an hour,32.7,No,No,6.6,7.9,No,Occasionally,Very often,normal,2,No,Quite often
+Region C,48,Female,No,No,more than half an hour,30.0,No,No,5.4,5.4,No,Occasionally,Sometimes,normal,6,No,Quite often
+Region C,78,Female,Yes,No,none,26.7,No,No,5.5,4.0,No,Occasionally,Very often,normal,4,Yes,Quite often
+Region B,27,Male,No,No,more than half an hour,25.8,No,Yes,7.2,6.2,No,Never,Always,normal,0,No,Quite often
+Region D,27,Male,No,Yes,none,28.3,No,No,6.6,3.2,No,Never,Very often,high,0,No,Not much
+Region A,76,Female,No,No,more than half an hour,29.8,No,Yes,7.7,4.1,Yes,Occasionally,Sometimes,normal,6,No,Not much
+Region B,28,Male,No,Yes,none,32.2,Yes,Yes,6.9,8.4,Yes,Never,Sometimes,high,0,No,Quite often
+Region A,47,Male,Yes,No,one hour or more,24.5,No,No,7.5,4.4,No,Often,Very often,normal,0,Yes,Quite often
+Region A,34,Male,Yes,No,more than half an hour,27.9,No,No,3.7,9.1,No,Never,Very often,normal,0,No,Not much
+Region F,26,Female,No,No,more than half an hour,32.1,No,No,7.5,4.9,No,Never,Not at all,normal,2,No,Quite often
+Region D,57,Male,Yes,Yes,none,23.3,No,No,7.0,8.6,Yes,Often,Always,high,0,Yes,Not much
+Region B,30,Male,No,No,more than half an hour,26.2,No,Yes,7.3,6.2,No,Occasionally,Very often,low,0,No,Not much
+Region C,48,Female,No,Yes,less than half an hour,27.6,No,No,5.6,5.2,No,Never,Not at all,high,0,No,Quite often
+Region E,76,Female,No,No,one hour or more,30.6,No,No,7.3,4.4,No,Occasionally,Sometimes,normal,0,Yes,Not much
+Region B,36,Female,No,Yes,one hour or more,30.5,Yes,Yes,4.6,4.1,No,Often,Not at all,high,5,No,Quite often
+Region C,67,Male,No,Yes,more than half an hour,28.9,No,No,6.5,3.5,No,Never,Not at all,high,0,No,Not much
+Region D,37,Female,No,No,one hour or more,32.9,No,No,9.0,5.3,No,Never,Very often,low,3,No,Not much
+Region B,37,Male,No,No,less than half an hour,24.0,No,No,5.4,5.7,No,Never,Very often,normal,0,No,Not much
+Region C,46,Female,No,No,less than half an hour,34.0,Yes,Yes,7.2,6.8,No,Never,Very often,normal,5,No,Quite often
+Region D,48,Male,No,No,more than half an hour,21.1,No,No,7.7,6.0,No,Never,Not at all,low,0,Yes,Quite often
+Region E,72,Male,No,No,more than half an hour,22.4,No,No,6.7,6.8,No,Occasionally,Very often,normal,0,No,Quite often
+Region A,36,Male,No,No,more than half an hour,21.5,No,No,8.1,7.1,No,Never,Not at all,normal,0,No,Not much
+Region F,74,Male,No,No,less than half an hour,22.5,Yes,No,5.6,6.0,No,Occasionally,Sometimes,normal,0,No,Not much
+Region A,64,Female,No,No,less than half an hour,28.9,No,No,4.9,5.6,No,Occasionally,Sometimes,normal,6,Yes,Quite often
+Region D,35,Male,No,Yes,less than half an hour,29.7,No,No,6.5,5.4,No,Never,Not at all,high,0,No,Not much
+Region E,30,Female,No,No,more than half an hour,29.7,No,No,7.7,3.1,No,Occasionally,Very often,normal,1,No,Quite often
+Region A,43,Male,No,Yes,none,26.0,Yes,Yes,6.5,6.5,Yes,Often,Sometimes,high,0,Yes,Quite often
+Region B,36,Male,No,No,less than half an hour,22.7,No,Yes,8.3,9.4,No,Never,Sometimes,normal,0,No,Not much
+Region E,41,Male,No,Yes,more than half an hour,28.9,No,No,7.0,5.8,No,Occasionally,Very often,high,0,No,Not much
+Region A,200,Male,Yes,No,less than half an hour,25.1,Yes,No,5.6,6.2,No,Occasionally,Not at all,normal,0,No,Not much
+Region C,25,Female,No,No,one hour or more,20.4,No,Yes,6.4,4.9,Yes,Often,Sometimes,normal,5,No,Not much
+Region D,69,Female,Yes,No,more than half an hour,28.3,Yes,No,7.2,5.3,No,Occasionally,Sometimes,normal,2,No,Not much
+Region C,62,Male,No,No,less than half an hour,19.9,No,No,8.4,6.0,No,Occasionally,Not at all,normal,0,No,Not much
+Region D,36,Female,Yes,No,more than half an hour,23.9,No,No,7.2,7.4,No,Occasionally,Not at all,normal,4,Yes,Not much
+Region A,23,Female,No,No,less than half an hour,29.1,No,No,6.1,5.4,No,Occasionally,Always,normal,0,No,Quite often
+Region A,80,Female,No,No,less than half an hour,30.4,No,No,7.3,4.2,No,Occasionally,Sometimes,normal,4,Yes,Quite often
+Region B,47,Female,No,No,less than half an hour,30.0,No,No,8.8,6.4,No,Occasionally,Always,low,0,No,Not much
+Region A,20,Female,Yes,No,more than half an hour,27.3,No,No,6.2,3.8,No,Occasionally,Not at all,normal,0,No,Not much
+Region B,22,Female,No,No,less than half an hour,27.8,No,No,7.2,5.5,No,Never,Not at all,normal,0,No,Not much
+Region F,50,Female,No,No,more than half an hour,26.9,No,Yes,9.3,4.9,No,Occasionally,Always,normal,3,No,Quite often
+Region C,38,Male,No,No,less than half an hour,28.8,No,No,5.4,9.6,No,Occasionally,Very often,normal,0,No,Not much
+Region B,28,Male,No,No,one hour or more,23.0,No,Yes,7.1,6.6,No,Occasionally,Sometimes,normal,0,No,Quite often
+Region B,66,Female,No,No,none,27.8,No,Yes,4.8,6.3,No,Occasionally,Sometimes,normal,3,No,Quite often
+Region F,34,Female,Yes,No,less than half an hour,32.8,No,No,6.6,7.1,No,Occasionally,Not at all,normal,2,No,Quite often
+Region B,65,Male,Yes,Yes,less than half an hour,24.0,No,No,8.0,5.9,No,Occasionally,Sometimes,high,0,No,Not much
+Region F,70,Female,No,Yes,more than half an hour,19.0,No,No,7.4,5.0,No,Never,Sometimes,high,6,No,Not much
+Region C,27,Male,No,No,one hour or more,27.4,No,No,8.5,4.6,No,Often,Sometimes,normal,0,No,Quite often
+Region C,31,Female,No,No,none,27.0,No,No,6.7,2.9,No,Often,Sometimes,normal,2,No,Not much
+Region E,79,Female,No,Yes,one hour or more,28.1,No,Yes,5.8,7.7,No,Never,Not at all,high,3,No,Not much
+Region D,26,Female,No,No,more than half an hour,33.4,No,No,6.8,5.7,No,Never,Sometimes,normal,2,No,Not much
+Region C,61,Female,Yes,Yes,less than half an hour,33.1,No,No,9.0,5.8,No,Never,Sometimes,high,2,No,Not much
+Region B,66,Male,Yes,No,less than half an hour,28.1,No,No,8.0,5.7,No,Occasionally,Sometimes,normal,0,No,Not much
+Region E,36,Female,No,No,none,20.4,No,No,7.2,7.4,No,Occasionally,Very often,normal,6,No,Not much
+Region B,32,Male,No,No,less than half an hour,23.5,No,No,7.4,4.9,No,Often,Always,low,0,No,Not much
+Region F,18,Female,No,No,none,30.1,Yes,No,9.3,4.3,Yes,Occasionally,Always,normal,5,No,Not much
+Region A,26,Male,No,No,more than half an hour,22.9,No,Yes,6.5,6.0,No,Never,Not at all,normal,0,No,Not much
+Region B,73,Male,No,Yes,less than half an hour,30.9,No,Yes,7.6,5.0,No,Often,Sometimes,high,0,Yes,Quite often
+Region C,29,Female,Yes,No,less than half an hour,17.4,No,Yes,8.8,5.1,No,Never,Very often,normal,6,No,Not much
+Region F,76,Female,No,No,one hour or more,25.8,No,No,6.2,6.3,No,Occasionally,Sometimes,normal,2,No,Not much
+Region B,53,Female,Yes,No,less than half an hour,45.0,No,No,8.4,7.5,No,Never,Very often,normal,1,No,Not much
+Region E,49,Female,No,No,one hour or more,28.5,Yes,No,6.1,5.0,No,Never,Sometimes,normal,6,No,Not much
+Region D,55,Male,No,Yes,more than half an hour,31.1,No,No,6.8,6.9,No,Never,Not at all,high,0,Yes,Not much
+Region D,39,Male,No,Yes,less than half an hour,33.1,Yes,Yes,6.4,6.0,No,Never,Sometimes,high,0,No,Not much
+Region C,40,Male,Yes,No,none,23.7,No,No,6.2,5.6,No,Never,Always,normal,0,Yes,Not much
+Region F,30,Female,No,No,less than half an hour,27.6,No,No,9.0,6.7,No,Often,Always,low,6,Yes,Not much
+Region B,71,Male,No,Yes,more than half an hour,26.3,Yes,No,5.5,8.1,Yes,Occasionally,Sometimes,high,0,No,Quite often
+Region B,64,Male,No,No,less than half an hour,24.4,No,No,5.0,7.6,No,Often,Sometimes,low,0,No,Quite often
+Region A,60,Female,No,No,none,24.5,No,No,6.8,7.1,No,Occasionally,Very often,low,2,Yes,Not much
+Region A,22,Male,No,No,more than half an hour,27.0,No,Yes,8.0,6.2,No,Never,Not at all,normal,0,No,Quite often
+Region A,52,Male,No,No,none,20.1,Yes,No,6.1,4.8,No,Often,Very often,low,0,No,Not much
+Region E,68,Female,No,Yes,less than half an hour,33.3,Yes,No,6.4,7.5,No,Occasionally,Not at all,high,6,No,Not much
+Region E,46,Male,No,No,none,27.9,No,No,8.1,4.2,No,Never,Sometimes,normal,0,No,Not much
+Region A,73,Female,No,No,less than half an hour,15.0,No,No,6.3,1.3,No,Often,Very often,low,4,Yes,Not much
+Region C,78,Female,No,No,none,20.9,No,Yes,8.3,7.2,No,Never,Sometimes,normal,5,Yes,Not much
+Region C,64,Male,No,Yes,none,35.4,No,No,6.1,5.6,No,Often,Sometimes,high,0,Yes,Not much
+Region C,51,Female,No,No,none,24.5,No,No,8.4,8.6,No,Often,Sometimes,normal,1,No,Quite often
+Region D,72,Male,No,No,more than half an hour,29.9,Yes,Yes,8.4,6.9,Yes,Never,Sometimes,normal,0,No,Not much
+Region B,24,Female,No,No,none,23.0,No,No,7.0,7.7,No,Occasionally,Sometimes,low,5,No,Not much
+Region F,39,Male,No,No,one hour or more,26.3,No,Yes,7.2,5.2,No,Often,Sometimes,normal,0,No,Not much
+Region C,60,Female,No,No,less than half an hour,29.5,No,Yes,6.3,4.4,No,Often,Always,normal,1,No,Not much
+Region C,65,Female,No,Yes,one hour or more,21.8,No,Yes,6.0,5.6,Yes,Often,Not at all,high,0,No,Not much
+Region C,37,Female,Yes,No,none,28.2,Yes,No,6.2,5.6,No,Occasionally,Very often,normal,1,No,Not much
+Region A,48,Male,No,No,more than half an hour,26.2,No,No,9.9,6.5,No,Never,Very often,normal,0,No,Quite often
+Region A,45,Female,No,Yes,more than half an hour,28.0,No,No,8.9,6.5,No,Never,Not at all,high,2,No,Not much
+Region B,68,Female,No,No,less than half an hour,27.7,No,No,7.6,4.9,No,Occasionally,Sometimes,normal,5,No,Not much
+Region D,49,Male,No,Yes,one hour or more,24.5,No,No,7.2,4.5,Yes,Often,Very often,high,0,No,Not much
+Region E,63,Female,No,Yes,less than half an hour,24.6,No,No,6.8,4.2,No,Never,Sometimes,high,3,Yes,Not much
+Region D,59,Female,No,No,one hour or more,33.1,No,No,7.5,7.7,No,Never,Sometimes,normal,2,No,Not much
+Region A,76,Female,No,No,more than half an hour,20.5,No,No,5.7,8.0,No,Never,Very often,normal,1,No,Not much
+Region E,42,Female,No,Yes,none,27.3,No,No,5.0,6.4,Yes,Never,Very often,high,1,No,Not much
+Region E,23,Male,No,No,one hour or more,22.6,Yes,No,6.3,6.9,No,Never,Always,normal,0,No,Quite often
+Region E,57,Female,No,Yes,more than half an hour,23.6,No,No,9.1,6.2,No,Occasionally,Not at all,high,3,No,Not much
+Region C,23,Male,No,No,one hour or more,24.8,No,No,5.8,3.8,No,Occasionally,Always,normal,0,No,Quite often
+Region E,57,Male,Yes,No,none,24.4,No,No,7.8,5.0,Yes,Occasionally,Sometimes,normal,0,No,Not much
+Region A,50,Male,No,No,less than half an hour,30.1,No,No,7.6,8.2,No,Never,Not at all,normal,0,No,Quite often
+Region A,47,Female,No,No,none,26.2,No,No,8.1,5.3,No,Occasionally,Always,normal,1,No,Not much
+Region A,53,Female,Yes,No,less than half an hour,15.0,Yes,No,7.4,6.1,Yes,Never,Sometimes,normal,3,No,Not much
+Region B,26,Male,No,No,less than half an hour,23.7,No,No,6.8,7.1,No,Occasionally,Always,normal,0,No,Not much
+Region A,62,Male,No,No,one hour or more,27.7,No,No,5.3,7.0,No,Occasionally,Very often,normal,0,No,Not much
+Region A,24,Male,No,No,less than half an hour,27.8,No,No,6.1,5.4,Yes,Never,Sometimes,normal,0,No,Not much
+Region C,35,Male,No,No,one hour or more,22.8,No,No,7.9,5.3,Yes,Occasionally,Not at all,normal,0,No,Not much
+Region A,73,Male,No,Yes,more than half an hour,33.8,No,Yes,6.8,5.0,No,Often,Very often,high,0,No,Not much
+Region C,46,Male,Yes,No,less than half an hour,34.5,Yes,Yes,8.3,7.4,No,Never,Not at all,normal,0,No,Not much
+Region A,76,Male,No,No,one hour or more,22.9,No,Yes,7.8,7.6,No,Often,Always,normal,0,No,Not much
+Region D,53,Male,No,No,less than half an hour,26.2,No,No,6.5,4.5,No,Occasionally,Always,normal,0,No,Not much
+Region A,21,Female,No,Yes,more than half an hour,24.5,Yes,No,6.7,8.4,No,Often,Not at all,high,3,No,Quite often
+Region B,63,Female,No,No,more than half an hour,37.6,No,No,7.9,5.1,No,Occasionally,Not at all,normal,4,No,Quite often
+Region F,61,Male,Yes,No,less than half an hour,27.6,No,No,7.6,8.1,No,Often,Very often,normal,0,No,Not much
+Region C,23,Male,No,No,one hour or more,28.1,No,Yes,5.0,7.3,No,Occasionally,Sometimes,normal,0,No,Not much
+Region E,53,Female,Yes,No,more than half an hour,30.8,No,No,6.0,7.4,Yes,Often,Not at all,normal,4,No,Not much
+Region D,48,Male,No,No,one hour or more,32.4,No,No,7.6,4.4,No,Never,Sometimes,normal,0,Yes,Not much
+Region C,54,Female,No,No,more than half an hour,25.2,No,Yes,5.7,7.0,No,Occasionally,Sometimes,normal,3,No,Quite often
+Region A,79,Male,No,No,none,27.9,Yes,No,8.7,5.5,No,Occasionally,Always,normal,0,Yes,Not much
+Region C,77,Female,No,No,less than half an hour,18.8,No,No,9.2,4.1,No,Never,Not at all,normal,3,No,Not much
+Region A,43,Male,Yes,No,more than half an hour,28.5,No,No,6.5,8.7,No,Occasionally,Very often,normal,0,No,Not much
+Region E,70,Female,No,Yes,more than half an hour,29.9,Yes,Yes,8.2,6.2,No,Never,Not at all,high,0,No,Quite often
+Region F,64,Male,No,Yes,one hour or more,29.0,No,No,5.0,4.9,No,Often,Always,high,0,No,Not much
+Region E,37,Female,No,No,none,18.6,No,No,8.2,4.1,No,Occasionally,Sometimes,normal,4,No,Not much
+Region A,49,Male,No,Yes,one hour or more,18.5,No,Yes,7.0,6.9,No,Never,Very often,high,0,No,Not much
+Region B,80,Male,No,Yes,more than half an hour,23.1,No,No,5.0,5.9,Yes,Occasionally,Very often,high,0,No,Not much
+Region B,70,Female,No,Yes,more than half an hour,28.2,No,Yes,6.1,7.1,No,Often,Very often,high,4,No,Not much
+Region A,56,Male,Yes,No,one hour or more,25.4,No,No,5.5,9.2,No,Often,Very often,normal,0,No,Quite often
+Region C,44,Female,Yes,No,more than half an hour,27.5,No,Yes,5.2,5.2,No,Never,Not at all,normal,5,No,Quite often
+Region D,37,Female,No,No,less than half an hour,23.6,No,Yes,7.2,4.1,No,Occasionally,Sometimes,normal,2,Yes,Quite often
+Region B,47,Male,No,No,less than half an hour,20.5,No,No,5.4,5.9,No,Often,Not at all,low,0,Yes,Quite often
+Region E,50,Female,No,No,none,23.8,No,No,5.0,6.2,No,Often,Very often,normal,5,No,Quite often
+Region D,76,Male,No,Yes,none,30.1,No,No,5.8,5.8,No,Never,Always,high,0,No,Not much
+Region A,28,Male,Yes,Yes,one hour or more,26.0,Yes,No,6.8,6.5,No,Occasionally,Sometimes,high,0,No,Not much
+Region D,26,Female,Yes,No,less than half an hour,27.9,No,No,6.6,7.9,No,Never,Very often,normal,4,No,Not much
+Region E,30,Male,No,No,none,31.0,No,No,9.2,6.2,Yes,Occasionally,Sometimes,normal,0,No,Not much
+Region A,70,Female,No,Yes,more than half an hour,34.8,Yes,No,6.7,4.6,No,Occasionally,Very often,high,0,No,Not much
+Region C,53,Male,No,Yes,one hour or more,30.5,No,Yes,5.7,5.3,No,Occasionally,Sometimes,high,0,No,Quite often
+Region C,43,Female,No,Yes,less than half an hour,27.2,No,No,8.6,4.3,Yes,Occasionally,Sometimes,high,1,No,Not much
+Region C,44,Male,No,No,less than half an hour,27.9,Yes,No,6.4,7.7,No,Never,Always,normal,0,No,Not much
+Region A,35,Female,Yes,No,more than half an hour,24.1,No,No,4.8,4.9,No,Occasionally,Sometimes,normal,1,No,Not much
+Region D,52,Female,No,Yes,less than half an hour,22.8,No,Yes,8.1,6.0,Yes,Often,Always,high,2,No,Quite often
+Region C,45,Male,No,No,less than half an hour,23.7,No,No,7.0,6.3,No,Occasionally,Always,normal,0,No,Not much
+Region E,38,Male,No,Yes,more than half an hour,25.1,No,No,6.9,5.7,No,Often,Always,high,0,No,Not much
+Region E,80,Male,No,No,less than half an hour,26.9,No,No,6.9,4.6,No,Often,Very often,normal,0,No,Not much
+Region B,72,Male,No,No,less than half an hour,32.3,No,Yes,8.3,3.8,No,Often,Sometimes,normal,0,No,Not much
+Region D,57,Female,No,No,more than half an hour,21.8,No,No,6.4,5.4,No,Never,Sometimes,normal,3,No,Not much
+Region E,42,Male,No,Yes,one hour or more,26.0,Yes,No,8.1,4.0,No,Occasionally,Very often,high,0,No,Not much
+Region E,26,Male,No,No,none,24.0,No,Yes,6.1,7.2,No,Occasionally,Sometimes,normal,0,No,Not much
+Region A,57,Male,No,No,none,21.1,No,No,8.2,5.8,No,Occasionally,Always,normal,0,No,Not much
+Region A,80,Male,Yes,Yes,none,29.0,No,Yes,5.2,8.7,No,Occasionally,Very often,high,0,Yes,Not much
+Region D,37,Male,Yes,No,none,26.6,No,No,8.4,5.6,Yes,Occasionally,Not at all,low,0,No,Not much
+Region A,76,Female,No,No,more than half an hour,21.0,No,No,8.0,5.5,No,Never,Sometimes,normal,0,No,Not much
+Region C,28,Male,No,No,more than half an hour,28.5,Yes,No,5.4,5.4,No,Occasionally,Sometimes,normal,0,No,Not much
+Region F,46,Female,No,No,more than half an hour,26.6,No,No,7.5,6.3,No,Occasionally,Not at all,normal,2,No,Not much
+Region B,62,Male,No,No,one hour or more,29.4,No,Yes,7.2,9.5,No,Occasionally,Always,normal,0,No,Not much
+Region B,62,Female,No,No,none,34.5,Yes,No,5.0,6.6,No,Occasionally,Very often,low,3,No,Not much
+Region C,55,Female,No,No,less than half an hour,32.8,No,No,6.2,5.5,No,Often,Always,normal,3,No,Not much
+Region D,77,Female,No,No,more than half an hour,25.3,No,No,8.1,5.7,No,Occasionally,Very often,low,0,No,Not much
+Region A,28,Male,Yes,No,none,22.9,No,Yes,8.7,4.8,No,Never,Sometimes,normal,0,No,Quite often
+Region B,54,Female,Yes,No,more than half an hour,33.3,No,No,7.7,4.1,No,Occasionally,Very often,low,0,Yes,Not much
+Region A,31,Male,No,No,one hour or more,24.1,Yes,No,6.2,3.4,No,Never,Not at all,normal,0,No,Not much
+Region D,58,Male,No,No,one hour or more,29.7,No,No,6.5,6.7,No,Occasionally,Sometimes,normal,0,Yes,Not much
+Region E,32,Male,Yes,No,one hour or more,31.9,Yes,No,7.7,7.2,No,Never,Not at all,normal,0,No,Not much
+Region B,47,Male,No,No,more than half an hour,25.0,No,No,5.5,7.6,No,Occasionally,Always,normal,0,No,Not much
+Region B,25,Male,No,No,less than half an hour,21.7,No,No,6.6,5.6,No,Occasionally,Sometimes,normal,0,No,Not much
+Region C,30,Female,No,No,less than half an hour,19.8,Yes,No,5.8,6.0,No,Often,Sometimes,normal,3,No,Not much
+Region A,31,Male,Yes,Yes,one hour or more,24.8,No,No,7.7,4.8,No,Occasionally,Not at all,high,0,Yes,Quite often
+Region A,65,Male,No,Yes,one hour or more,26.5,No,Yes,8.9,5.7,No,Occasionally,Sometimes,high,0,No,Not much
+Region B,78,Female,No,No,none,23.1,Yes,Yes,4.8,5.8,No,Never,Sometimes,normal,6,No,Not much
+Region C,45,Male,No,Yes,less than half an hour,28.5,No,No,6.9,6.7,No,Occasionally,Not at all,high,0,Yes,Quite often
+Region A,64,Female,No,No,less than half an hour,27.1,Yes,Yes,9.1,6.5,Yes,Occasionally,Not at all,normal,6,No,Not much
+Region D,71,Male,Yes,Yes,none,29.3,No,Yes,7.6,6.6,No,Never,Very often,high,0,No,Not much
+Region C,32,Female,No,No,less than half an hour,27.7,No,No,7.8,4.9,No,Occasionally,Not at all,normal,4,No,Not much
+Region B,28,Male,No,Yes,none,22.1,No,No,4.4,8.4,No,Never,Always,high,0,No,Not much
+Region A,62,Female,Yes,Yes,one hour or more,25.5,No,Yes,6.7,7.3,No,Occasionally,Not at all,high,1,No,Quite often
+Region D,68,Male,No,Yes,one hour or more,24.8,No,No,6.5,8.3,No,Never,Sometimes,high,0,No,Quite often
+Region A,65,Female,No,No,more than half an hour,27.3,No,No,6.3,6.9,Yes,Occasionally,Sometimes,normal,6,Yes,Quite often
+Region A,30,Male,No,No,less than half an hour,28.2,No,No,8.7,4.8,No,Never,Not at all,normal,0,No,Not much
+Region A,23,Female,No,No,none,32.9,No,No,4.4,5.7,No,Often,Always,normal,4,No,Not much
+Region A,32,Female,No,No,more than half an hour,22.4,No,No,8.9,6.3,No,Often,Sometimes,low,6,No,Quite often
+Region E,39,Female,No,No,none,36.1,No,No,8.7,5.9,Yes,Never,Always,low,4,No,Not much
+Region B,80,Male,No,Yes,less than half an hour,20.1,No,No,6.3,6.3,No,Never,Always,high,0,No,Quite often
+Region B,20,Male,No,Yes,none,24.5,No,No,6.1,6.6,No,Never,Always,high,0,No,Not much
+Region E,46,Female,No,No,more than half an hour,28.6,No,No,4.6,5.5,No,Occasionally,Sometimes,normal,6,No,Quite often
+Region C,26,Male,No,No,less than half an hour,23.7,No,No,8.9,4.3,No,Occasionally,Sometimes,normal,0,No,Not much
+Region A,39,Male,No,No,one hour or more,24.5,No,Yes,7.8,7.6,No,Never,Always,low,0,No,Not much
+Region B,49,Male,No,No,none,21.5,Yes,No,8.5,7.5,No,Occasionally,Very often,normal,0,No,Not much
+Region E,62,Male,No,No,less than half an hour,25.5,No,No,8.2,4.8,No,Occasionally,Not at all,low,0,No,Not much
+Region B,61,Male,No,No,one hour or more,28.8,No,No,6.6,6.4,No,Occasionally,Not at all,normal,0,No,Not much
+Region D,57,Female,No,No,more than half an hour,21.5,No,No,8.9,2.2,No,Often,Sometimes,normal,1,No,Quite often
+Region A,23,Male,No,No,less than half an hour,25.7,No,No,5.4,6.0,No,Never,Not at all,normal,0,No,Not much
+Region D,66,Female,Yes,Yes,none,29.1,No,No,6.6,5.1,No,Often,Not at all,high,0,No,Quite often
+Region D,35,Male,No,Yes,less than half an hour,22.5,No,Yes,6.8,3.0,No,Never,Not at all,high,0,No,Not much
+Region E,44,Female,No,No,less than half an hour,31.0,No,No,8.5,7.2,No,Never,Sometimes,normal,4,Yes,Not much
+Region D,18,Male,Yes,No,more than half an hour,25.8,No,No,4.3,7.8,No,Often,Not at all,normal,0,No,Not much
+Region B,37,Female,Yes,No,less than half an hour,26.3,No,Yes,6.2,7.4,No,Often,Sometimes,low,6,No,Not much
+Region A,36,Female,No,Yes,none,31.4,Yes,Yes,7.5,10.0,Yes,Occasionally,Very often,high,5,No,Quite often
+Region C,45,Female,Yes,Yes,less than half an hour,17.6,No,No,6.5,5.8,No,Often,Sometimes,high,0,No,Quite often
+Region D,23,Male,Yes,No,none,22.1,No,No,10.0,4.5,No,Occasionally,Always,low,0,No,Not much
+Region A,38,Female,No,No,less than half an hour,21.4,No,Yes,6.1,5.1,No,Often,Very often,low,6,No,Not much
+Region B,74,Female,No,Yes,more than half an hour,35.3,No,No,4.8,6.8,No,Occasionally,Very often,high,1,No,Not much
+Region C,29,Male,No,No,less than half an hour,26.8,No,No,6.7,5.2,No,Often,Very often,low,0,No,Not much
+Region D,69,Female,No,No,one hour or more,32.9,No,No,8.6,6.0,No,Occasionally,Not at all,normal,2,No,Not much
+Region E,68,Female,No,Yes,more than half an hour,27.6,No,No,5.3,5.4,No,Occasionally,Very often,high,6,No,Not much
+Region A,56,Male,Yes,No,less than half an hour,30.3,No,No,5.5,4.0,Yes,Occasionally,Very often,normal,0,No,Quite often
+Region A,18,Male,No,No,none,21.9,Yes,Yes,7.9,6.4,No,Occasionally,Very often,low,0,No,Not much
+Region D,66,Male,No,Yes,more than half an hour,36.0,No,Yes,5.7,7.6,No,Never,Sometimes,high,0,No,Quite often
+Region C,60,Male,Yes,No,more than half an hour,31.6,No,No,6.6,6.1,No,Occasionally,Very often,normal,0,Yes,Not much
+Region D,45,Female,Yes,No,one hour or more,21.5,No,Yes,5.8,5.3,No,Occasionally,Sometimes,normal,4,Yes,Not much
+Region F,46,Male,No,No,more than half an hour,30.6,Yes,Yes,3.3,7.5,No,Occasionally,Very often,low,0,No,Not much
+Region F,78,Male,No,Yes,none,26.8,No,Yes,8.2,4.2,No,Never,Sometimes,high,0,No,Not much
+Region E,57,Female,No,No,more than half an hour,27.4,No,No,5.9,4.0,No,Often,Sometimes,normal,2,Yes,Not much
+Region D,76,Female,No,No,one hour or more,24.8,No,No,8.7,3.9,No,Occasionally,Very often,normal,2,Yes,Quite often
+Region B,59,Female,Yes,No,one hour or more,21.7,No,No,6.8,5.2,Yes,Often,Not at all,low,4,No,Not much
+Region C,26,Female,No,No,none,23.4,No,No,5.9,4.4,No,Occasionally,Sometimes,low,0,No,Quite often
+Region A,77,Male,No,No,one hour or more,30.0,No,No,7.0,6.1,No,Often,Not at all,normal,0,No,Quite often
+Region D,23,Male,No,No,one hour or more,27.2,No,No,6.3,5.6,No,Never,Sometimes,normal,0,No,Not much
+Region D,52,Male,No,Yes,one hour or more,29.6,No,No,8.6,7.7,Yes,Never,Not at all,high,0,Yes,Quite often
+Region D,79,Male,Yes,No,none,26.1,No,No,6.2,4.4,No,Often,Always,normal,0,Yes,Not much
+Region B,74,Male,No,Yes,one hour or more,20.8,No,Yes,8.8,4.6,No,Never,Sometimes,high,0,No,Not much
+Region B,36,Female,No,No,one hour or more,28.3,No,No,8.4,6.9,No,Never,Very often,normal,1,No,Not much
+Region B,22,Female,No,No,less than half an hour,23.2,No,No,5.4,6.3,No,Never,Sometimes,normal,4,Yes,Not much
+Region A,69,Female,Yes,No,none,33.5,Yes,No,7.8,4.2,No,Occasionally,Not at all,low,3,No,Not much
+Region E,49,Female,No,Yes,one hour or more,23.8,Yes,No,7.1,5.5,No,Occasionally,Sometimes,high,3,Yes,Not much
+Region C,72,Male,No,No,more than half an hour,21.4,No,No,6.7,6.8,No,Occasionally,Sometimes,normal,0,No,Not much
+Region B,60,Male,Yes,Yes,more than half an hour,23.8,No,Yes,7.2,5.9,No,Occasionally,Sometimes,high,0,Yes,Quite often
+Region C,64,Male,Yes,No,less than half an hour,29.6,No,No,7.3,5.1,No,Occasionally,Sometimes,normal,0,Yes,Not much
+Region D,56,Male,No,No,more than half an hour,28.2,No,No,8.8,6.1,No,Occasionally,Always,normal,0,Yes,Not much
+Region B,33,Female,No,Yes,more than half an hour,31.3,No,No,7.4,5.1,No,Never,Not at all,high,2,No,Quite often
+Region E,59,Male,No,Yes,none,26.3,No,No,10.0,6.5,No,Occasionally,Sometimes,high,0,No,Quite often
+Region E,67,Female,Yes,No,more than half an hour,28.4,No,No,6.3,5.2,No,Occasionally,Sometimes,normal,6,No,Not much
+Region B,44,Male,No,No,more than half an hour,22.4,No,No,6.1,5.2,No,Often,Not at all,low,0,No,Quite often
+Region A,58,Male,No,Yes,none,32.1,No,No,5.0,10.0,No,Often,Sometimes,high,0,No,Quite often
+Region D,57,Male,No,No,none,21.8,No,Yes,6.7,6.5,No,Never,Sometimes,normal,0,No,Quite often
+Region F,58,Female,No,Yes,none,38.3,No,No,6.9,6.8,No,Never,Not at all,high,3,No,Not much
+Region A,52,Male,No,Yes,one hour or more,23.4,No,No,6.4,5.8,No,Occasionally,Very often,high,0,Yes,Quite often
+Region D,62,Male,Yes,No,more than half an hour,26.8,No,Yes,7.9,5.8,No,Occasionally,Not at all,normal,0,No,Not much
+Region E,66,Female,Yes,Yes,more than half an hour,26.8,Yes,Yes,6.0,7.5,No,Often,Not at all,high,2,No,Not much
+Region F,67,Male,Yes,Yes,one hour or more,30.7,No,No,7.0,6.7,No,Occasionally,Not at all,high,0,Yes,Not much
+Region A,77,Female,No,Yes,none,15.0,No,Yes,7.4,5.5,No,Occasionally,Sometimes,high,4,No,Not much
+Region A,53,Female,No,Yes,more than half an hour,29.7,No,Yes,6.4,4.8,No,Never,Very often,high,1,No,Quite often
+Region F,36,Male,No,No,more than half an hour,26.2,No,No,7.0,7.8,Yes,Never,Sometimes,low,0,Yes,Not much
+Region A,18,Male,No,Yes,less than half an hour,25.5,Yes,No,10.0,4.3,No,Often,Very often,high,0,No,Not much
+Region A,33,Male,No,No,less than half an hour,32.4,No,No,6.2,5.3,No,Never,Very often,normal,0,No,Not much
+Region C,47,Female,Yes,No,less than half an hour,23.0,Yes,Yes,10.0,1.4,Yes,Often,Not at all,low,2,No,Quite often
+Region B,73,Male,No,Yes,more than half an hour,29.1,No,No,5.6,5.9,No,Occasionally,Not at all,high,0,No,Quite often
+Region D,80,Male,No,No,none,24.2,Yes,Yes,7.1,8.3,No,Occasionally,Sometimes,normal,0,Yes,Not much
+Region A,47,Male,No,No,one hour or more,23.5,No,No,5.5,6.5,No,Never,Always,normal,0,No,Quite often
+Region E,62,Male,No,No,none,26.3,Yes,No,3.9,6.2,No,Occasionally,Not at all,low,0,No,Not much
+Region A,39,Male,No,No,none,27.9,Yes,Yes,7.1,6.5,No,Never,Sometimes,low,0,Yes,Quite often
+Region D,68,Male,Yes,Yes,none,28.3,No,No,5.3,4.8,No,Occasionally,Always,high,0,No,Not much
+Region A,37,Male,No,Yes,none,23.2,No,No,7.2,5.2,No,Never,Not at all,high,0,No,Not much
+Region C,69,Male,No,No,one hour or more,19.7,Yes,No,8.0,5.9,No,Occasionally,Not at all,normal,0,No,Not much
+Region A,66,Male,No,No,one hour or more,24.9,No,Yes,5.7,5.0,No,Occasionally,Sometimes,low,0,No,Not much
+Region B,70,Female,No,No,none,26.6,No,No,7.7,7.8,Yes,Occasionally,Always,low,3,No,Quite often
+Region B,74,Female,No,No,less than half an hour,22.7,Yes,No,7.1,8.0,No,Occasionally,Very often,normal,1,No,Not much
+Region D,78,Male,Yes,No,less than half an hour,21.2,No,Yes,5.6,3.6,No,Often,Very often,normal,0,Yes,Not much
+Region C,21,Female,No,Yes,none,29.4,No,Yes,6.7,5.3,No,Occasionally,Very often,high,0,No,Not much
+Region A,68,Male,No,No,none,21.8,No,No,8.4,7.0,Yes,Often,Sometimes,normal,0,No,Not much
+Region F,74,Female,No,Yes,less than half an hour,23.6,Yes,Yes,6.9,10.0,No,Never,Always,high,5,No,Not much
+Region E,55,Female,No,No,more than half an hour,21.5,No,No,6.5,5.9,No,Never,Always,normal,2,No,Not much
+Region E,46,Female,No,No,one hour or more,25.4,No,No,5.5,5.9,No,Never,Sometimes,low,6,No,Not much
+Region A,35,Female,Yes,No,none,27.7,No,Yes,10.0,7.9,No,Occasionally,Sometimes,normal,4,No,Not much
+Region B,45,Female,No,No,none,26.5,No,No,7.4,7.3,No,Often,Very often,normal,3,No,Not much
+Region A,49,Female,No,Yes,one hour or more,28.4,No,Yes,7.6,7.4,No,Often,Not at all,high,0,No,Not much
+Region A,34,Female,No,No,less than half an hour,21.0,No,No,5.4,4.5,No,Occasionally,Not at all,normal,4,No,Not much
+Region A,39,Female,No,No,one hour or more,28.3,No,No,5.0,7.9,No,Occasionally,Very often,low,2,No,Quite often
+Region C,21,Male,No,No,more than half an hour,15.1,No,No,5.3,5.7,No,Often,Not at all,normal,0,No,Quite often
+Region A,70,Male,No,Yes,one hour or more,26.0,No,Yes,8.0,6.1,No,Occasionally,Very often,high,0,No,Not much
+Region A,32,Female,No,No,one hour or more,24.4,Yes,No,6.4,5.2,No,Occasionally,Not at all,normal,4,No,Not much
+Region E,43,Female,Yes,No,none,32.6,Yes,No,8.4,6.7,No,Often,Not at all,normal,4,No,Not much
+Region C,79,Male,Yes,No,less than half an hour,28.5,Yes,No,5.3,7.1,No,Often,Very often,normal,0,No,Not much
+Region A,19,Female,No,No,more than half an hour,24.3,No,No,6.5,5.8,No,Occasionally,Not at all,normal,3,No,Not much
+Region D,71,Male,No,No,more than half an hour,20.7,No,No,7.8,9.6,No,Occasionally,Sometimes,normal,0,No,Not much
+Region B,75,Female,No,Yes,less than half an hour,35.0,No,No,7.1,5.8,No,Occasionally,Not at all,high,3,Yes,Quite often
+Region C,73,Female,No,Yes,none,26.4,No,No,5.4,5.2,No,Often,Not at all,high,6,No,Not much
+Region B,64,Male,No,No,more than half an hour,26.0,No,No,6.1,4.9,No,Never,Sometimes,low,0,Yes,Not much
+Region C,34,Male,No,Yes,none,26.4,No,No,8.2,8.5,No,Never,Very often,high,0,No,Not much
+Region C,49,Female,No,No,less than half an hour,33.9,No,Yes,7.9,5.3,No,Occasionally,Sometimes,normal,6,No,Quite often
+Region C,18,Male,No,No,none,20.5,No,No,8.6,4.6,Yes,Often,Very often,normal,0,No,Not much
+Region B,78,Male,Yes,Yes,more than half an hour,27.7,No,Yes,7.6,5.7,No,Never,Sometimes,high,0,No,Not much
+Region D,23,Male,No,No,more than half an hour,17.3,Yes,No,5.5,7.1,No,Occasionally,Sometimes,low,0,No,Not much
+Region E,42,Male,No,No,none,23.5,No,Yes,10.0,8.8,No,Occasionally,Not at all,low,0,No,Quite often
+Region A,61,Female,Yes,No,none,29.1,No,Yes,7.9,5.7,No,Occasionally,Sometimes,normal,6,No,Not much
+Region A,52,Male,Yes,No,more than half an hour,27.7,No,No,6.5,2.8,No,Occasionally,Very often,normal,0,No,Not much
+Region A,66,Female,Yes,No,one hour or more,19.7,No,Yes,7.2,4.1,Yes,Often,Sometimes,normal,2,No,Not much
+Region F,48,Male,No,No,none,24.7,No,No,5.7,7.4,No,Occasionally,Very often,normal,0,No,Quite often
+Region F,34,Female,No,Yes,more than half an hour,29.2,No,No,6.3,4.9,No,Never,Always,high,6,No,Quite often
+Region A,22,Male,Yes,Yes,none,31.9,No,No,5.4,5.0,No,Often,Not at all,high,0,No,Not much
+Region F,33,Male,No,Yes,more than half an hour,33.3,Yes,No,5.5,5.9,No,Occasionally,Not at all,high,0,No,Not much
+Region A,30,Female,No,No,less than half an hour,28.9,No,No,7.7,5.0,Yes,Occasionally,Not at all,normal,0,No,Not much
+Region C,66,Male,No,Yes,less than half an hour,33.0,No,No,8.1,7.9,No,Often,Not at all,high,0,No,Quite often
+Region C,41,Female,No,Yes,one hour or more,25.3,No,No,6.2,5.2,No,Occasionally,Not at all,high,5,No,Quite often
+Region E,65,Male,No,No,more than half an hour,21.7,No,No,6.3,6.2,No,Occasionally,Sometimes,normal,0,No,Not much
+Region A,40,Male,Yes,No,less than half an hour,24.5,No,No,6.4,7.8,No,Occasionally,Very often,low,0,No,Not much
+Region B,74,Female,Yes,Yes,more than half an hour,23.4,No,No,6.3,8.6,No,Never,Not at all,high,4,Yes,Not much
+Region C,77,Male,Yes,No,more than half an hour,31.8,Yes,No,6.6,4.0,No,Never,Very often,normal,0,No,Not much
+Region A,66,Female,No,No,one hour or more,24.4,No,No,6.4,8.6,No,Occasionally,Sometimes,normal,5,No,Quite often
+Region A,61,Female,No,No,more than half an hour,33.5,No,No,7.0,7.6,No,Occasionally,Not at all,normal,3,Yes,Not much
+Region C,24,Male,No,No,less than half an hour,25.3,No,No,7.6,3.5,No,Occasionally,Not at all,normal,0,No,Not much
+Region E,20,Male,Yes,No,more than half an hour,28.8,No,No,7.9,4.3,No,Never,Sometimes,normal,0,No,Not much
+Region D,27,Male,No,No,more than half an hour,26.7,No,No,7.3,3.7,No,Never,Sometimes,normal,0,Yes,Quite often
+Region E,60,Male,Yes,Yes,more than half an hour,24.0,No,No,3.7,5.2,No,Never,Very often,high,0,No,Not much
+Region D,25,Female,No,No,none,23.7,No,No,6.5,6.5,No,Occasionally,Not at all,normal,1,No,Quite often
+Region D,70,Male,No,No,one hour or more,30.5,No,No,6.2,3.9,No,Occasionally,Not at all,normal,0,No,Not much
+Region E,45,Female,No,No,more than half an hour,32.4,No,No,5.8,4.0,No,Occasionally,Sometimes,normal,6,No,Not much
+Region D,22,Male,No,No,none,23.6,No,Yes,5.0,7.9,Yes,Often,Not at all,normal,0,No,Not much
+Region D,24,Male,Yes,No,none,24.3,No,No,8.7,3.6,No,Often,Sometimes,normal,0,No,Not much
+Region B,30,Male,No,No,more than half an hour,27.3,No,Yes,9.0,4.7,No,Occasionally,Sometimes,normal,0,No,Not much
+Region A,18,Male,No,No,less than half an hour,24.5,Yes,Yes,7.7,4.7,No,Occasionally,Sometimes,normal,0,No,Quite often
+Region D,55,Female,No,Yes,one hour or more,28.1,No,Yes,8.3,7.0,No,Often,Sometimes,high,1,No,Not much
+Region A,75,Female,No,Yes,none,28.6,No,No,8.1,5.3,No,Occasionally,Sometimes,high,4,No,Not much
+Region E,32,Female,No,No,more than half an hour,26.8,No,No,6.3,6.6,No,Often,Always,normal,1,No,Quite often
+Region C,72,Female,No,No,less than half an hour,28.3,No,No,6.3,5.1,No,Never,Sometimes,normal,4,No,Not much

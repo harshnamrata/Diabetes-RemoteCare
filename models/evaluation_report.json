@@ -1,0 +1,70 @@
+{
+  "selected_model": "LogisticRegression",
+  "selection_criterion": "highest mean 5-fold CV recall on training set; tie-break F1",
+  "cv_on_training_set": {
+    "LogisticRegression": {
+      "recall": 0.6652690426275332,
+      "precision": 0.4249266007094117,
+      "f1": 0.5183683340626184,
+      "roc_auc": 0.7291440949602895
+    },
+    "DecisionTree": {
+      "recall": 0.5832285115303982,
+      "precision": 0.38934061930601876,
+      "f1": 0.4630355175179671,
+      "roc_auc": 0.6576089190450599
+    },
+    "RandomForest": {
+      "recall": 0.11663172606568832,
+      "precision": 0.6222222222222221,
+      "f1": 0.194106258295898,
+      "roc_auc": 0.7014102298108871
+    }
+  },
+  "test_set_results": {
+    "LogisticRegression": {
+      "accuracy": 0.66,
+      "precision": 0.40594059405940597,
+      "recall": 0.6212121212121212,
+      "f1": 0.49101796407185627,
+      "roc_auc": 0.7094038208168644,
+      "false_positive_rate": 0.32608695652173914,
+      "confusion_matrix": {
+        "tp": 41,
+        "fp": 60,
+        "tn": 124,
+        "fn": 25
+      }
+    },
+    "DecisionTree": {
+      "accuracy": 0.624,
+      "precision": 0.37037037037037035,
+      "recall": 0.6060606060606061,
+      "f1": 0.45977011494252873,
+      "roc_auc": 0.6361989459815546,
+      "false_positive_rate": 0.3695652173913043,
+      "confusion_matrix": {
+        "tp": 40,
+        "fp": 68,
+        "tn": 116,
+        "fn": 26
+      }
+    },
+    "RandomForest": {
+      "accuracy": 0.756,
+      "precision": 0.6923076923076923,
+      "recall": 0.13636363636363635,
+      "f1": 0.22784810126582278,
+      "roc_auc": 0.6841238471673255,
+      "false_positive_rate": 0.021739130434782608,
+      "confusion_matrix": {
+        "tp": 9,
+        "fp": 4,
+        "tn": 180,
+        "fn": 57
+      }
+    }
+  },
+  "test_set_size": 250,
+  "train_set_size": 1000
+}

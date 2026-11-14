@@ -1,0 +1,147 @@
+{
+  "project": "RemoteCare AI",
+  "model_version": "1.0.0-synthetic",
+  "trained_at_utc": "2026-11-11T12:09:46+00:00",
+  "selected_model": "LogisticRegression",
+  "dataset": {
+    "file": "data/sample/synthetic_diabetes_2019.csv",
+    "is_synthetic": true,
+    "sha256": "52e3475fe260e1b7de3b43e2a58b40f9d2a7196f69121a46707ba5a619432d54",
+    "schema_note": "Column names follow Diabetes Dataset 2019 as referenced in the PPT; verify against the real file before real-data use.",
+    "rows": 1250,
+    "predictors": 17,
+    "duplicate_rows": 0,
+    "missing_values": 0
+  },
+  "target": {
+    "column": "Diabetic",
+    "positive_class": "Yes",
+    "encoded_as": "1 = Yes, 0 = No",
+    "definition": "Synthetic label from a probabilistic latent-risk generator"
+  },
+  "feature_schema": {
+    "numeric": [
+      "Age",
+      "BMI",
+      "Sleep",
+      "SoundSleep",
+      "Pregnancies"
+    ],
+    "ranges": {
+      "Age": [
+        18.0,
+        80.0
+      ],
+      "BMI": [
+        15.0,
+        42.0
+      ],
+      "Sleep": [
+        3.0,
+        10.0
+      ],
+      "SoundSleep": [
+        1.3,
+        10.0
+      ],
+      "Pregnancies": [
+        0.0,
+        6.0
+      ]
+    },
+    "categorical": {
+      "Gender": [
+        "Female",
+        "Male"
+      ],
+      "Family_Diabetes": [
+        "No",
+        "Yes"
+      ],
+      "highBP": [
+        "No",
+        "Yes"
+      ],
+      "PhysicallyActive": [
+        "less than half an hour",
+        "more than half an hour",
+        "none",
+        "one hour or more"
+      ],
+      "Smoking": [
+        "No",
+        "Yes"
+      ],
+      "Alcohol": [
+        "No",
+        "Yes"
+      ],
+      "RegularMedicine": [
+        "No",
+        "Yes"
+      ],
+      "JunkFood": [
+        "Never",
+        "Occasionally",
+        "Often"
+      ],
+      "Stress": [
+        "Always",
+        "Not at all",
+        "Sometimes",
+        "Very often"
+      ],
+      "BPLevel": [
+        "high",
+        "low",
+        "normal"
+      ],
+      "Pdiabetes": [
+        "No",
+        "Yes"
+      ],
+      "UriationFreq": [
+        "Not much",
+        "Quite often"
+      ]
+    },
+    "order": [
+      "Age",
+      "Gender",
+      "Family_Diabetes",
+      "highBP",
+      "PhysicallyActive",
+      "BMI",
+      "Smoking",
+      "Alcohol",
+      "Sleep",
+      "SoundSleep",
+      "RegularMedicine",
+      "JunkFood",
+      "Stress",
+      "BPLevel",
+      "Pregnancies",
+      "Pdiabetes",
+      "UriationFreq"
+    ]
+  },
+  "training_config": {
+    "test_size": 0.2,
+    "stratified": true,
+    "seed": 42,
+    "cv_folds": 5,
+    "decision_threshold": 0.5,
+    "class_weight": "balanced",
+    "preprocessing": "StandardScaler (numeric), OneHotEncoder (categorical), fit on training data only"
+  },
+  "environment": {
+    "python": "3.12.3",
+    "sklearn": "1.8.0",
+    "pandas": "3.0.6"
+  },
+  "security_note": "Only load model artifacts from trusted sources; joblib/pickle can execute code.",
+  "artifact": {
+    "file": "models/remotecare_model.joblib",
+    "sha256": "66f16c27f2a7d30133d4d0c10b3739608121604b74ed93e5a3d29bf49118b7fc"
+  }
+}
