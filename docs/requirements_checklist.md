@@ -24,7 +24,7 @@ Status key:
 | 80/20 stratified split, fixed seed | Done (tested) | `train_model.py`; metadata records seed 42 |
 | Preprocessing fitted on training data only (no leakage) | Done (tested) | Single sklearn Pipeline per model |
 | Model selection on training data, test set used once | Done | CV on training set; `evaluation_report.json` |
-| Accuracy, precision, recall, F1, ROC-AUC, confusion matrix | Done (tested) | `evaluation_report.json`; Model Performance page |
+| Accuracy, precision, recall, F1, ROC-AUC, confusion matrix | Done (tested) | `evaluation_report.json`; Home page, Model at a glance tab |
 | Recall prioritised, precision and FPR reported | Done | Selection criterion stated in metadata and on page |
 | Reproducible training | Done | Seed, versions and dataset hash recorded |
 | Artifact integrity (hash, schema) | Done (tested) | `test_security.py`, `test_prediction.py` |
@@ -61,7 +61,7 @@ Status key:
 ## Dashboard, reports and history
 | Requirement | Status | Evidence / note |
 |---|---|---|
-| Dashboard with navigation, model info, disclaimer | Done | `views/overview.py` |
+| Dashboard with navigation, model info, disclaimer | Done | `views/home.py` |
 | Statistics from actual session data, empty states | Done | Session counts and empty-state messages |
 | Model evaluation summary from saved results | Done | Read from `evaluation_report.json` |
 | Session history with minimal fields | Done (tested) | Six fields; no identifiers |

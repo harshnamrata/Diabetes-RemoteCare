@@ -10,7 +10,7 @@ User (browser)
 Streamlit app (app.py: navigation, st.Page list)
    |
    +-- views/            one file per section
-   |     overview, individual, regional, model_performance, reports_history, about
+   |     home, individual, regional, learn, history
    |
    v
 src/ service layer

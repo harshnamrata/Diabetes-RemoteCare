@@ -1,4 +1,3 @@
-"""Regional batch screening: validate an uploaded CSV, score valid rows, aggregate by region."""
 from __future__ import annotations
 
 import io
@@ -26,7 +25,7 @@ SCORING_FAILED = "Batch scoring could not be completed. No results were produced
 
 @dataclass
 class BatchResult:
-    status: str  # "ok" | "rejected" | "unavailable" | "error"
+    status: str
     message: str = ""
     total_rows: int = 0
     valid_rows: int = 0
@@ -43,7 +42,6 @@ def _rejected(message: str) -> BatchResult:
 
 
 def process_batch(file_bytes: bytes, filename: str, sort_by: str = "count") -> BatchResult:
-    # File-level checks
     if not filename.lower().endswith(".csv"):
         return _rejected("Only .csv files are accepted.")
     if len(file_bytes) > MAX_UPLOAD_BYTES:
@@ -78,7 +76,6 @@ def process_batch(file_bytes: bytes, filename: str, sort_by: str = "count") -> B
     ignored = [c for c in df.columns if c not in required]
     df = df[required].apply(lambda s: s.str.strip())
 
-    # Row-level checks
     issues: list[dict] = []
     all_rows: list[dict] = []
     valid_features: list[dict] = []
@@ -86,7 +83,7 @@ def process_batch(file_bytes: bytes, filename: str, sort_by: str = "count") -> B
     first_seen: dict[tuple, int] = {}
 
     for position, (_, row) in enumerate(df.iterrows()):
-        row_number = position + 2  # header is line 1
+        row_number = position + 2
         region_raw = row[REGION_COL]
         region = region_raw if region_raw else NO_REGION
         errors: list[str] = []
@@ -119,7 +116,6 @@ def process_batch(file_bytes: bytes, filename: str, sort_by: str = "count") -> B
             valid_features.append(features)
             valid_meta.append((row_number, region))
 
-    # Scoring: same pipeline as individual screening
     probs: list[float] = []
     if valid_features:
         try:

@@ -1,4 +1,3 @@
-"""Input validation at the application boundary (individual and batch records)."""
 from __future__ import annotations
 
 import math
@@ -20,7 +19,6 @@ class ValidationResult:
 
 
 def validate_individual(record: dict, schema: dict) -> ValidationResult:
-    """Errors block prediction. Warnings (outside training range) do not."""
     res = ValidationResult()
     numeric = schema["numeric"]
     categorical = schema["categorical"]
@@ -69,7 +67,6 @@ def validate_individual(record: dict, schema: dict) -> ValidationResult:
 
 
 def records_to_frame(records: list[dict], schema: dict) -> pd.DataFrame:
-    """Build a DataFrame with exactly the training column order and types."""
     rows = [{col: (float(r[col]) if col in schema["numeric"] else str(r[col]))
              for col in schema["order"]} for r in records]
     return pd.DataFrame(rows, columns=schema["order"])

@@ -1,5 +1,3 @@
-"""Build a session report (Markdown). Contains model/dataset facts, evaluation, session
-history and aggregated regional ranking. It contains no patient-level records."""
 from __future__ import annotations
 
 import math
@@ -16,10 +14,9 @@ def _cell(value) -> str:
     if isinstance(value, bool):
         return "Yes" if value else "No"
     text = str(value)
-    # Region names are user-supplied: neutralise characters that would break the table.
     text = text.replace("|", "/").replace("\n", " ").replace("\r", " ")
     for ch in "[]<>`":
-        text = text.replace(ch, "")  # no links, images, or raw HTML from user text
+        text = text.replace(ch, "")
     return text.strip()
 
 

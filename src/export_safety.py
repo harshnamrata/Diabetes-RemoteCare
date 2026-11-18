@@ -1,4 +1,3 @@
-"""Make CSV downloads safe to open in spreadsheet software (CSV/formula injection)."""
 from __future__ import annotations
 
 import pandas as pd
@@ -7,7 +6,6 @@ FORMULA_PREFIXES = ("=", "+", "-", "@", "\t", "\r")
 
 
 def neutralise_cell(value):
-    """Prefix risky text so spreadsheet apps show it as text, not a formula."""
     if isinstance(value, str) and value.startswith(FORMULA_PREFIXES):
         return "'" + value
     return value

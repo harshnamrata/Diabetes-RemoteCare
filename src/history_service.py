@@ -1,13 +1,7 @@
-"""
-Session-only screening history.
-
-Stores aggregate counts per operation only: no names, IDs, region-level patient data,
-or feature values. Nothing here is written to disk.
-"""
 from __future__ import annotations
 
 import hashlib
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 
 import pandas as pd
 
@@ -41,11 +35,10 @@ def individual_entry(status: str, flagged: bool = False) -> dict | None:
         return make_entry(INDIVIDUAL, 1, 0, 0, "Rejected")
     if status == "error":
         return make_entry(INDIVIDUAL, 1, 0, 0, "Error")
-    return None  # model unavailable: no screening took place
+    return None
 
 
 def batch_entry(result) -> dict | None:
-    """result: a BatchResult from src.batch_processing."""
     if result.status == "ok":
         return make_entry(BATCH, result.total_rows, result.valid_rows,
                           result.flagged_rows, "Completed")
@@ -77,7 +70,6 @@ def history_frame(history: list[dict]) -> pd.DataFrame:
 
 
 def upload_fingerprint(data: bytes) -> str:
-    """Identifies an upload so reruns (e.g. changing the sort) are not logged twice."""
     return hashlib.sha256(data).hexdigest()
 
 
@@ -86,7 +78,6 @@ def should_log_batch(stored_fingerprint: str | None, new_fingerprint: str) -> bo
 
 
 def batch_snapshot(result, generated_at: str | None = None) -> dict:
-    """Aggregate-only copy of the latest regional batch, for the dashboard and report."""
     return {
         "summary": result.summary.copy(),
         "received": result.total_rows,
@@ -95,3 +86,20 @@ def batch_snapshot(result, generated_at: str | None = None) -> dict:
         "excluded": result.excluded_rows,
         "timestamp": generated_at or _now(),
     }
+
+
+def filter_history(history: list[dict], modes=None, statuses=None,
+                   start: date | None = None, end: date | None = None) -> list[dict]:
+    out = []
+    for e in history:
+        if modes and e["Mode"] not in modes:
+            continue
+        if statuses and e["Status"] not in statuses:
+            continue
+        day = datetime.fromisoformat(e["Timestamp (UTC)"]).date()
+        if start and day < start:
+            continue
+        if end and day > end:
+            continue
+        out.append(e)
+    return out

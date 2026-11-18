@@ -5,7 +5,8 @@ import pytest
 
 import src.batch_processing as batch
 from src.batch_processing import process_batch
-from src.config import DEFAULTS, ROOT
+from src.config import ROOT
+from tests.sample_record import SAMPLE as DEFAULTS
 from src.model_loader import ModelUnavailableError
 from src.regional_aggregation import summarize_regions
 
@@ -19,8 +20,6 @@ def good(region="North", **kw):
 def make_csv(rows):
     return pd.DataFrame(rows).to_csv(index=False).encode()
 
-
-# ---------- file-level validation ----------
 
 def test_rejects_non_csv():
     assert process_batch(b"a,b", "data.xlsx").status == "rejected"
@@ -62,8 +61,6 @@ def test_model_unavailable_is_reported(monkeypatch):
     assert process_batch(make_csv([good()]), "a.csv").status == "unavailable"
 
 
-# ---------- row-level validation and scoring ----------
-
 def test_valid_file_scores_every_row():
     rows = [good("North"), good("North", BMI=30.0), good("South")]
     result = process_batch(make_csv(rows), "a.csv")
@@ -83,7 +80,7 @@ def test_counts_are_consistent():
 def test_invalid_row_is_excluded_and_reported_with_line_number():
     result = process_batch(make_csv([good(), good(BMI="abc"), good("South")]), "a.csv")
     excluded = result.issues[result.issues["Severity"] == "Excluded"]
-    assert list(excluded["Row"]) == [3]  # header is line 1, bad row is line 3
+    assert list(excluded["Row"]) == [3]
     assert "BMI must be a number." in excluded["Detail"].iloc[0]
     assert result.valid_rows == 2
 
@@ -146,8 +143,6 @@ def test_demo_file_processes_with_expected_problems():
     assert (result.issues["Severity"] == "Warning").any()
 
 
-# ---------- regional aggregation ----------
-
 def _scored(pairs):
     return pd.DataFrame(pairs, columns=["Region", "Flagged"])
 
@@ -173,7 +168,6 @@ def test_zero_valid_region_is_safe():
 
 
 def test_count_and_percent_rank_differently():
-    # A: 5 flagged of 50 (10%). B: 2 of 2 (100%).
     scored = _scored([("A", True)] * 5 + [("A", False)] * 45 + [("B", True)] * 2)
     all_rows = _all([("A", False)] * 50 + [("B", False)] * 2)
     assert summarize_regions(scored, all_rows, sort_by="count").iloc[0]["Region"] == "A"

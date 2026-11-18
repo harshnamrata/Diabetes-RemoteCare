@@ -2,7 +2,8 @@ import pytest
 
 import src.model_loader as model_loader
 import src.prediction_service as service
-from src.config import DEFAULTS, METADATA_PATH
+from src.config import METADATA_PATH
+from tests.sample_record import SAMPLE as DEFAULTS
 from src.model_loader import ModelUnavailableError, load_model
 from src.prediction_service import screen_individual
 

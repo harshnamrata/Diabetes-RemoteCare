@@ -1,4 +1,3 @@
-"""Security and privacy controls."""
 import json
 
 import pandas as pd
@@ -6,13 +5,13 @@ import pytest
 
 import src.model_loader as model_loader
 from src.batch_processing import process_batch
-from src.config import DEFAULTS, METADATA_PATH, MODEL_PATH
+from src.config import METADATA_PATH
+from src.config import MODEL_PATH
+from tests.sample_record import SAMPLE as DEFAULTS
 from src.export_safety import neutralise_cell, to_safe_csv_bytes
 from src.model_loader import ModelUnavailableError
 from src.report_generator import build_markdown_report
 
-
-# ---------- CSV / formula injection ----------
 
 @pytest.mark.parametrize("value", ["=HYPERLINK(\"x\")", "+1+1", "-2", "@SUM(A1)", "\tcmd"])
 def test_formula_prefixes_are_neutralised(value):
@@ -39,8 +38,6 @@ def test_region_with_formula_is_handled_in_batch_and_export():
     assert "'=1+1" in exported
 
 
-# ---------- model artifact integrity ----------
-
 def test_tampered_artifact_is_refused(tmp_path, monkeypatch):
     tampered = tmp_path / "model.joblib"
     tampered.write_bytes(MODEL_PATH.read_bytes() + b"tamper")
@@ -65,8 +62,6 @@ def test_recorded_hash_matches_artifact_on_disk():
     assert hashlib.sha256(MODEL_PATH.read_bytes()).hexdigest() == meta["artifact"]["sha256"]
 
 
-# ---------- privacy of outputs ----------
-
 def test_processed_results_export_has_no_health_values():
     row = {"Region": "North", **DEFAULTS}
     result = process_batch(pd.DataFrame([row]).to_csv(index=False).encode(), "a.csv")
@@ -78,7 +73,6 @@ def test_report_contains_no_feature_values():
     from src.model_loader import load_evaluation
     meta = json.loads(MP.read_text())
     text = build_markdown_report(meta, load_evaluation(), [], None, "t")
-    # Distinctive default feature value strings should not appear in the report body.
     assert "more than half an hour" not in text
     assert "Occasionally" not in text
 
@@ -98,7 +92,6 @@ def test_user_region_text_cannot_inject_links_into_report():
 def test_streamlit_config_sets_upload_limit_and_disables_telemetry():
     import tomllib
     from src.config import ROOT
-    # Parse the TOML rather than matching text: a malformed file is silently ignored by Streamlit.
     cfg = tomllib.loads((ROOT / ".streamlit" / "config.toml").read_text())
     assert cfg["server"]["maxUploadSize"] == 5
     assert cfg["browser"]["gatherUsageStats"] is False

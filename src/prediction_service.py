@@ -1,4 +1,3 @@
-"""Individual screening: validate, run the saved model, return a structured result."""
 from __future__ import annotations
 
 import logging
@@ -15,7 +14,7 @@ PREDICTION_FAILED = "The prediction could not be completed. Please check the ent
 
 @dataclass(frozen=True)
 class IndividualResult:
-    status: str  # "ok" | "invalid" | "unavailable" | "error"
+    status: str
     flagged: bool = False
     probability: float | None = None
     threshold: float | None = None
@@ -40,7 +39,6 @@ def screen_individual(record: dict) -> IndividualResult:
         frame = to_model_frame(record, schema)
         probability = float(loaded.pipeline.predict_proba(frame)[0, 1])
     except Exception as exc:
-        # Log the exception type only, never record values.
         logger.error("Individual prediction failed: %s", type(exc).__name__)
         return IndividualResult(status="error", message=PREDICTION_FAILED)
 

@@ -1,4 +1,3 @@
-"""Load the trained pipeline and metadata once, and verify that they agree."""
 from __future__ import annotations
 
 import hashlib
@@ -16,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 
 class ModelUnavailableError(RuntimeError):
-    """The model artifact or its metadata cannot be used safely."""
+    pass
 
 
 @dataclass(frozen=True)
@@ -27,7 +26,6 @@ class LoadedModel:
 
 @lru_cache(maxsize=1)
 def load_model() -> LoadedModel:
-    """Load once per process. Never retrains and never substitutes another model."""
     if not MODEL_PATH.exists() or not METADATA_PATH.exists():
         raise ModelUnavailableError(
             "Trained model files were not found. Run `python scripts/train_model.py` first.")
@@ -35,8 +33,6 @@ def load_model() -> LoadedModel:
         metadata = json.loads(METADATA_PATH.read_text())
     except (OSError, json.JSONDecodeError) as exc:
         raise ModelUnavailableError("Model metadata could not be read.") from exc
-    # Security: joblib/pickle can execute code. Verify the artifact's hash, recorded at
-    # training time, before deserialising anything.
     expected_hash = metadata.get("artifact", {}).get("sha256")
     if not expected_hash:
         raise ModelUnavailableError("Model metadata has no artifact hash. Retrain the model.")
@@ -65,7 +61,6 @@ def load_model() -> LoadedModel:
 
 
 def load_evaluation() -> dict:
-    """Read the saved evaluation report. Raises ModelUnavailableError if missing or unreadable."""
     from src.config import ROOT
     path = ROOT / "models" / "evaluation_report.json"
     try:

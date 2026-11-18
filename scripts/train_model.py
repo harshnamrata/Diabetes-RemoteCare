@@ -1,15 +1,3 @@
-"""
-Train, compare, and evaluate diabetes-risk classifiers on the SYNTHETIC dataset.
-
-Protocol:
-  1. Validate the dataset.
-  2. 80/20 stratified train/test split (fixed random_state).
-  3. Each candidate is one sklearn Pipeline (ColumnTransformer + classifier),
-     so scaling and encoding are fitted on training folds only.
-  4. Model selection uses 5-fold stratified CV on the TRAINING set only,
-     ranked by recall, tie-broken by F1.
-  5. The test set is scored once per model, for reporting only.
-"""
 import hashlib
 import json
 import platform
@@ -63,7 +51,6 @@ def build_pipeline(clf, categorical):
 
 
 def metrics(y_true, y_pred, y_score) -> dict:
-    # labels=[0, 1] gives ravel() order tn, fp, fn, tp
     tn, fp, fn, tp = confusion_matrix(y_true, y_pred, labels=[0, 1]).ravel()
     return {
         "accuracy": accuracy_score(y_true, y_pred),
@@ -80,7 +67,7 @@ def main():
     df = pd.read_csv(DATA_PATH)
     data_info = validate(df)
     X = df.drop(columns=[TARGET])
-    y = (df[TARGET] == POS_LABEL).astype(int)  # Yes -> 1 (positive), No -> 0
+    y = (df[TARGET] == POS_LABEL).astype(int)
     categorical = [c for c in X.columns if c not in NUMERIC]
 
     X_train, X_test, y_train, y_test = train_test_split(
@@ -109,7 +96,6 @@ def main():
         y_score = pipe.predict_proba(X_test)[:, 1]
         test_results[name] = metrics(y_test, y_pred, y_score)
 
-    # Selection uses TRAINING-set CV only: highest mean recall, tie-break F1.
     selected = max(cv_results, key=lambda n: (cv_results[n]["recall"], cv_results[n]["f1"]))
     final = fitted[selected]
 

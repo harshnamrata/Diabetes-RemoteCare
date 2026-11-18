@@ -1,4 +1,3 @@
-"""Central configuration. Feature schema comes from the trained model's metadata, not from here."""
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -14,7 +13,6 @@ DISCLAIMER = (
     "or rule out diabetes; appropriate clinical assessment and diagnostic testing are needed."
 )
 
-# Entry plausibility limits: data-entry sanity checks only, not clinical thresholds.
 ENTRY_LIMITS = {
     "Age": (18, 100),
     "BMI": (10, 70),
@@ -24,28 +22,7 @@ ENTRY_LIMITS = {
 }
 WHOLE_NUMBER_FIELDS = {"Age", "Pregnancies"}
 
-# Default form values; every value must be valid under the model schema (tested).
-DEFAULTS = {
-    "Age": 40,
-    "Gender": "Female",
-    "Family_Diabetes": "No",
-    "highBP": "No",
-    "PhysicallyActive": "more than half an hour",
-    "BMI": 25.0,
-    "Smoking": "No",
-    "Alcohol": "No",
-    "Sleep": 7.0,
-    "SoundSleep": 6.0,
-    "RegularMedicine": "No",
-    "JunkFood": "Occasionally",
-    "Stress": "Sometimes",
-    "BPLevel": "normal",
-    "Pregnancies": 0,
-    "Pdiabetes": "No",
-    "UriationFreq": "Not much",
-}
 
-# Plain-language labels and guidance shown in the form.
 FIELD_INFO = {
     "Age": ("Age (years)", "Age of the person being screened."),
     "Gender": ("Gender", "As recorded in the dataset."),

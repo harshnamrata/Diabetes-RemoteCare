@@ -12,11 +12,9 @@ class _Batch:
         self.status, self.total_rows, self.valid_rows, self.flagged_rows = status, total, valid, flagged
 
 
-# ---------- history ----------
-
 def test_entry_has_only_aggregate_fields():
     e = make_entry("Individual screening", 1, 1, 0, "Completed")
-    assert list(e) == HISTORY_COLUMNS  # no identifiers or feature values can be stored
+    assert list(e) == HISTORY_COLUMNS
 
 
 def test_individual_status_mapping():
@@ -69,8 +67,6 @@ def test_batch_snapshot_is_aggregate_only():
     snap = batch_snapshot(R(), "2026-01-01T00:00:00+00:00")
     assert set(snap) == {"summary", "received", "scored", "flagged", "excluded", "timestamp"}
 
-
-# ---------- report ----------
 
 @pytest.fixture
 def meta_and_eval(schema):

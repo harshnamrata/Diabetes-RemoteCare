@@ -1,4 +1,3 @@
-"""Checks for the offline scripts (training validation and demo generation)."""
 import sys
 
 import pandas as pd
@@ -7,7 +6,7 @@ import pytest
 from src.config import ROOT
 
 sys.path.insert(0, str(ROOT / "scripts"))
-import train_model  # noqa: E402
+import train_model
 
 
 def test_validate_rejects_unexpected_labels():

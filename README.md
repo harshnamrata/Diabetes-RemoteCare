@@ -12,8 +12,9 @@ A screening aid only. It does not diagnose diabetes.
 
 ## Run the app
     streamlit run app.py
-Sections (defined in `app.py` with `st.navigation`): Overview, Individual Screening,
-Regional Screening, Model Performance, Reports and History, About the Project.
+Sidebar sections (defined in `app.py` with `st.navigation`): Home, Individual screening,
+Regional screening, Learn about diabetes, Reports & history. Model metrics and project
+information sit on the Home page.
 
 ## Regional demo data
     python scripts/make_regional_demo.py

@@ -1,6 +1,7 @@
 import math
 
-from src.config import DEFAULTS, ENTRY_LIMITS
+from src.config import ENTRY_LIMITS
+from tests.sample_record import SAMPLE as DEFAULTS
 from src.validation import validate_individual
 
 
@@ -72,7 +73,6 @@ def test_male_with_pregnancies_rejected(schema):
 
 
 def test_outside_training_range_is_warning_not_error(schema):
-    # BMI 45 is within entry limits but above the training maximum (42).
     result = validate_individual(rec(BMI=45.0), schema)
     assert result.is_valid
     assert any(w.startswith("BMI (45) is outside the range") for w in result.warnings)

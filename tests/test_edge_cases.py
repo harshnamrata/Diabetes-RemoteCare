@@ -1,11 +1,10 @@
-"""Failure paths that the coverage report showed as untested."""
 import pandas as pd
 import pytest
 
 import src.batch_processing as batch
 import src.model_loader as model_loader
 from src.batch_processing import process_batch
-from src.config import DEFAULTS
+from tests.sample_record import SAMPLE as DEFAULTS
 from src.model_loader import LoadedModel, ModelUnavailableError, load_evaluation, load_model
 from src.prediction_service import screen_individual
 
@@ -33,8 +32,6 @@ def _fake(pipe):
     return lambda: LoadedModel(pipeline=pipe, metadata=real.metadata)
 
 
-# ---------- model loader ----------
-
 def test_missing_model_files_reported(tmp_path, monkeypatch):
     monkeypatch.setattr(model_loader, "MODEL_PATH", tmp_path / "none.joblib")
     with pytest.raises(ModelUnavailableError, match="not found"):
@@ -50,7 +47,7 @@ def test_corrupt_metadata_reported(tmp_path, monkeypatch):
 
 
 def test_unreadable_artifact_reported(tmp_path, monkeypatch):
-    monkeypatch.setattr(model_loader, "MODEL_PATH", tmp_path)  # a directory, not a file
+    monkeypatch.setattr(model_loader, "MODEL_PATH", tmp_path)
     with pytest.raises(ModelUnavailableError, match="could not be read"):
         model_loader.load_model.__wrapped__()
 
@@ -61,8 +58,6 @@ def test_evaluation_report_missing_reported(tmp_path, monkeypatch):
     with pytest.raises(ModelUnavailableError, match="evaluation report"):
         load_evaluation()
 
-
-# ---------- batch edge cases ----------
 
 def test_bom_only_file_is_rejected_as_unreadable():
     result = process_batch(b"\xef\xbb\xbf", "a.csv")
